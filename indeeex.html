@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 50px;
+            background-color: #f0f0f0;
+        }
+        .button {
+            margin: 10px;
+            padding: 20px 40px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .button:active {
+            background-color: #388e3c;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="button" onclick="playSound('sound1.mp3')">Sound 1</button>
+    <button class="button" onclick="playSound('sound2.mp3')">Sound 2</button>
+    <button class="button" onclick="playSound('sound3.mp3')">Sound 3</button>
+    <button class="button" onclick="playSound('sound4.mp3')">Sound 4</button>
+    <button class="button" onclick="playSound('sound1.mp3')">Sound 1</button>
+    <button class="button" onclick="playSound('sound2.mp3')">Sound 2</button>
+    <button class="button" onclick="playSound('sound3.mp3')">Sound 3</button>
+    <button class="button" onclick="playSound('sound4.mp3')">Sound 4</button>
+    <button class="button" onclick="playSound('sound1.mp3')">Sound 1</button>
+    <button class="button" onclick="playSound('sound2.mp3')">Sound 2</button>
+    <button class="button" onclick="playSound('sound3.mp3')">Sound 3</button>
+    <button class="button" onclick="playSound('sound4.mp3')">Sound 4</button>
+    <button class="button" onclick="playSound('sound1.mp3')">Sound 1</button>
+    <button class="button" onclick="playSound('sound2.mp3')">Sound 2</button>
+    <button class="button" onclick="playSound('sound3.mp3')">Sound 3</button>
+    <button class="button" onclick="playSound('sound4.mp3')">Sound 4</button>
+    <button class="button" onclick="playSound('sound1.mp3')">Sound 1</button>
+    <button class="button" onclick="playSound('sound2.mp3')">Sound 2</button>
+    <button class="button" onclick="playSound('sound3.mp3')">Sound 3</button>
+    <button class="button" onclick="playSound('sound4.mp3')">Sound 4</button>
+
+
+    <script>
+        function playSound(soundFile) {
+            const audio = new Audio(soundFile);
+            audio.play();
+        }
+    </script>
+
+</body>
+</html>
